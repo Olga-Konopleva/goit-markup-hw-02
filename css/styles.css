@@ -17,20 +17,40 @@
 }
 
 body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     color: var(--primary-text-color);
+}
+
+.decoration {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 
 /* Логотип */
 .logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
     color: var(--logo-color);
 }
-.logo span {
-    color: var(--accent-color);
-}
+.logo span { color: var(--accent-color);}
 /* Навигация */
 
-.navigation a {
+.navigation .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     color: var(--title-text-color);
 }
 .accent:hover ,
@@ -38,48 +58,87 @@ body {
     color: var(--accent-color);
 }
 
-.contacts a {
+.contacts .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    font-style: normal;
     color: var(--primary-text-color);
 }
 
 /* Блог Герой */
 /* Бэкграунд для видимости, потом удалить */
-h1 {
+.hero .title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36x;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     color: var(--primary-white-color);
     background-color: gray;
 }
 .button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
 /* Наши преимущества */
 .advantages .title {
+    font-weight: 700d;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: var(--title-text-color);
 }
 
 .services .primary,
 .command .primary {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
 
 /* Наша команда */
 
 .command .title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
     color: var(--title-text-color);
+}
+
+.command .text {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 /* Footer */
 /* фон для видимости контекта, потом удалить */
 .direction {
+    font-style: normal;
     color: var(--primary-white-color);
     background-color: grey;
 }
-.direction a {
+.direction .link {
+    
     color: var(--footer-text-color);
 }
 
 /* Портфолио */
 .filter .item {
+    
     color: var(--title-text-color);
     background-color: var(--secondary-background-color);
 }
@@ -91,9 +150,15 @@ h1 {
 }
 
 .works .title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
     color: var(--title-text-color);
 }
 
 .works .text {
+    font-size: 16px;
+    line-height: 30px;             
+    letter-spacing: 1.9;
     color: var(--primary-text-color);
 }
